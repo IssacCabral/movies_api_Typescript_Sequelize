@@ -15,6 +15,4 @@ const Movie = db.define('movies', {
     }
 })
 
-Movie.sync({force: true})
-
 export default Movie
